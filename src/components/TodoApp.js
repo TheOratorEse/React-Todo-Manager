@@ -28,8 +28,8 @@ const TodoApp = () => {
 
   return (
     <>
-      <Typography variant="h4" component="h1" gutterBottom>
-        Todo App
+      <Typography variant="h4" align="center" color='blue' component="h1" gutterBottom>
+        Todo Task Manager
       </Typography>
       <TodoForm onAddTodo={handleAddTodo} />
       <TodoList
